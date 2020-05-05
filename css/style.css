@@ -1,72 +1,70 @@
-body {
-  padding-top:70px;
-}
-.ms_section-primary {
-  background-color: #1abc9c;
-  color: #fff;
-}
-.ms_section-secondary {
-  background-color: #2c3e50;
-}
-.ms_section-secondary .ms_section-title {
-  color: #333;
-}
-h1,h2 {
+
+/*INIZIO HEADER */
+.primary_nav {
+  background-color: #2d3e50;
   color:white;
-  text-transform: uppercase;
+  line-height: 80px;
 }
-/* componenti */
-.ms_navbar {
-  background-color: #2c3e50;
-  height: 70px;
+ul{
+  text-align: right;
 }
-.ms_jumbotron {
-  text-align: center;
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right:8px;
+}
+ul li a {
+  text-decoration: none;
+  color:white;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+/* inizio sections */
+.ms_section {
+  padding: 40px 0;
+}
+.ms_primary {
+  background-color: #1abc9b;
+  color: white;
+}
+.ms_secondary {
+  background-color: white;
+  color:black;
+}
+.ms_jumbo {
   padding: 35px 0;
 }
-.ms_portfolio {
-  margin-top: 20px;
+.chisono img {
+  height: 200px;
+}
+.chisono {
   text-align: center;
 }
-.ms_portfolio-item {
-  height: 300px;
-  background-color: #ba4b62;
-  border-radious:10px;
-  margin-bottom: 20px;
+/* fine section */
+
+/* inizio portfolio */
+.portfolio img {
+  height: 250px;
+  border-radius: 20px;
+  margin: 18px;
 }
-
-@media screen and (min-width:768px) {
-  .ms_jumbotron {
-    padding: 48px 0;
-  }
-}
-
-/* about */
-.ms_wrapper {
-  width: 60%;
-  margin:0 auto;
-}
-
-
-/* Legal */
-
-.ms_legal {
-  background-color: #3a546c;
-  margin: 0;
-}
-
-.ms_legal h3{
+.ms_intro {
   text-align: center;
-  color: #fff;
-  font-size: 15px;
 }
+/* fine portfolio */
 
-/* Footer */
-
-.ms_navbar h3 {
-  text-align: center;
-  color: #fff;
-  font-size: 15px;
-  line-height: 70px;
-  margin: 0;
+/* inizio contact me */
+.btn {
+  background-color: #1abc9b;
+  color: white;
 }
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+footer .azzurro{
+  background-color: #2d3e50;
+  color:white;
+}
+/* FINE FOOTER */

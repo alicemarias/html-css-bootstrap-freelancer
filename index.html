@@ -8,146 +8,161 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Freelancer</title>
   </head>
-
+  <!-- INIZIO BODY -->
   <body>
-    <!-- inizio header -->
-  <header>
-    <!-- inizio navbar -->
-    <nav class="navbar navbar-fixed-top ms_navbar">
-      <div class="container">
-      </div>
-    </nav>
-    <!-- fine navbar -->
-  </header>
-  <!-- fine header -->
-
-  <!-- inizio main -->
-  <main>
-    <!-- inizio jumbotron -->
-    <section id="jumbotron" class="ms_jumbotron ms_section-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="ms_avatar">
-            &nbsp;
-          </div>
-          <h1>Start Bootstrap</h1>
-          <div class="ms_divider">
-            <i class="fas fa-star"></i>
-          </div>
-          <h2>Graphic designer- web designer- illustrator</h2>
-        </div>
-      </div>
-    </div>
-    </section>
-      <!-- fine jumbotron -->
-
-      <!-- inizio portfolio -->
-    <section id="portfolio" class="ms_portfolio ms_section-secondary">
-      <div class="container">
-        <h2>Portfolio</h2>
-        <div class="ms_divider ms_divider_blue">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="row ms_row-portfolio">
-          <div class="col-xs-12 col-md-6 col-lg-4">
-             <div class="ms_portfolio-item"></div>
-          <!-- qua ci va un immagine  -->
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-             <div class="ms_portfolio-item"></div>
-          <!-- qua ci va un immagine  -->
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-             <div class="ms_portfolio-item"></div>
-          <!-- qua ci va un immagine  -->
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-             <div class="ms_portfolio-item"></div>
-          <!-- qua ci va un immagine  -->
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-             <div class="ms_portfolio-item"></div>
-          <!-- qua ci va un immagine  -->
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-             <div class="ms_portfolio-item"></div>
-          <!-- qua ci va un immagine  -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- fine portfolio -->
-
-    <!-- inizio about -->
-    <section id="about" class="ms_about ms_section-primary">
-      <div class="ms_wrapper">
-        <div class="text-center">
-        <h2>about</h2>
-        <div class="ms_divider">
-          <i class="fas fa-star"></i>
-        </div>
-      </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-        <div class="col-xs-12 col-md-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-      </div>
-    </div>
-  </div>
-    </section>
-    <!-- fine about -->
-
-    <!-- inizio contact -->
-    <section id="contact" class="ms_contact ms_section-secondary">
-      <div class="text-center">
-        <h2>Contact Me</h2>
-        <div class="ms_divider">
-            <i class="fas fa-star"></i>
-        </div>
-      </div>
-      <div class="row">
+    <!-- INIZIO HEADER -->
+    <header>
+      <div class="primary_nav">
         <div class="container">
-          <div class="col-xs-12 col-md-4">
-            <div class="ms_form">
+          <div class="row">
+            <!-- colonna titolo sito -->
+            <div class="col-xs-6">
+              START BOOTSTRAP
+            </div>
 
+            <!-- colonna menu -->
+            <div class="col-xs-6">
+              <nav class="hidden-xs">
+                <ul>
+                  <li><a href="#">PORTFOLIO</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">CONTACT</a></li>
+                </ul>
+              </nav>
+              <!-- burger menu -->
+              <div class="burger-menu visible-xs-block">
+                Burger
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- fine contact -->
+    </header>
+    <!-- FINE HEADER -->
 
-    <!-- inizio legal -->
-    <section id="legal" class="ms_legal">
-      <div class="row text-center">
+    <!-- INIZIO MAIN -->
+    <main>
+      <!-- inizio jumbotron -->
+      <section class="ms_jumbo ms_primary">
+          <div class="chisono container">
+            <img src="img/avataaars.svg" alt="foto freelancer">
+            <h3>START BOOTSTRAP</h3>
+             <div class="ms_star"><i class="fas fa-star"></i></div>
+            <h5>GRAPHIC ARTIST- WEB DEESIGNER - ILLUSTRATOR</h5>
+          </div>
+      </section>
+      <!-- fine jumbotron -->
+
+      <!-- inizio portfolio -->
+      <section class="ms_section ms_secondary">
+        <div class="portfolio container">
+          <div class="ms_intro">
+            <h3>PORTFOLIO</h3>
+            <div class="ms_star"><i class="fas fa-star"></i></div>
+          </div>
+          <div class="row">
+           <div class="col-xs-12 col-md-6 col-lg-4">
+            <img src="img/cake.png" alt="">
+           </div>
+           <div class="col-xs-12 col-md-6 col-lg-4">
+            <img src="img/game.png" alt="">
+           </div>
+           <div class="col-xs-12 col-md-6 col-lg-4">
+            <img src="img/submarine.png" alt="">
+           </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+            <img src="img/safe.png" alt="">
+           </div>
+           <div class="col-xs-12 col-md-6 col-lg-4">
+            <img src="img/cabin.png" alt="">
+           </div>
+           <div class="col-xs-12 col-md-6 col-lg-4">
+            <img src="img/circus.png" alt="">
+           </div>
+        </div>
+      </section>
+      <!-- fine portfolio -->
+
+      <!-- inizio about -->
+      <section class="ms_section ms_primary">
+          <div class="container">
+            <div class="ms_intro">
+              <h3>ABOUT</h3>
+              <div class="ms_star"><i class="fas fa-star"></i></div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+
+              <div class="col-xs-12 col-md-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- fine about -->
+
+      <!-- inizio contact me -->
+      <section class="ms_section ms_secondary">
         <div class="container">
+          <div class="ms_intro">
+            <h3>CONTACT ME</h3>
+            <div class="ms_star"><i class="fas fa-star"></i></div>
+          </div>
+
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Name</label>
+              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Mario Rossi">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Phone number</label>
+              <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="320.....">
+            </div>
+            <div class="form-group">
+             <label for="exampleFormControlTextarea1">Message</label>
+             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+             </div>
+             <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+      </section>
+      <!-- fine contact me -->
+    </main>
+    <!--FINE MAIN -->
+
+    <!-- INIZIO FOOTER -->
+    <footer>
+    <section class="ms_section azzurro">
+      <div class="container">
+        <div class="row">
           <div class="col-xs-12 col-md-4">
-            <h3>Locations</h3>
+            <h3>LOCATION</h3>
+            <p>2215 Jhon Daniel Drive Clark,MO</p>
+            <p>54243</p>
           </div>
           <div class="col-xs-12 col-md-4">
-            <h3>About the web</h3>
+            <h3>AROUND THE WEB</h3>
+
           </div>
           <div class="col-xs-12 col-md-4">
-            <h3>About Freelancer</h3>
+            <h3>ABOUT FREELANCER</h3>
+            <span>Freelance is a free to use, open source Bootstrap theme.</span>
           </div>
         </div>
+
       </div>
     </section>
 
-  </main>
-  <!-- fine main -->
+    </footer>
+    <!-- FINE FOOTER -->
 
-  <!-- iniziioo footer -->
-  <footer>
-    <div class="ms_navbar">
-      <h3>Your website 2019</h3>
-    </div>
-  </footer>
-  <!-- fine footer -->
   </body>
+  <!-- FINE BODY -->
 </html>

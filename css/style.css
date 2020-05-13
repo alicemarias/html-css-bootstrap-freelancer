@@ -18,7 +18,22 @@ ul li a {
   color:white;
 }
 /* FINE HEADER */
-
+/* stelline tra le due righe */
+.ms_star {
+  font-size:26px;
+}
+.ms_star:after,
+.ms_star::before {
+  content: '';
+  width: 100px;
+  height: 4px;
+  display: inline-block;
+  background-color: black;
+  vertical-align: middle;
+}
+.ms_star i{
+  padding: 10px;
+}
 /* INIZIO MAIN */
 
 /* inizio sections */
